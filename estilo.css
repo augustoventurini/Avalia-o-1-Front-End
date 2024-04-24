@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+main {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screen {
+    height: auto;
+    width: auto;
+    overflow: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+h1 {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.boxemail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.boxsenha {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.email {
+    margin-top: 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.senha {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.caixas {
+    border-radius: 4px;
+}
+
+.mandar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mandar button {
+    margin-top: 50px;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
